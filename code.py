@@ -38,3 +38,6 @@ class factorialTests(unittest.TestCase):
     def test_factorial_1(self):
         self.assertEqual(factorial(1), 1)
 
+    def test_factorial_2(self):
+        self.assertEqual(factorial(0), None)
+        
